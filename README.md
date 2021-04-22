@@ -8,6 +8,8 @@ By populating a configuration file (in YAML format) that sets out each microserv
 
 Improve communication amongst your product team, make your devops folks happier, and shorten time-to-market!
 
+![architecture as code](https://github.com/kg0809/architecture-as-code/blob/main/architecture-as-code.png?raw=true)
+
 ## Requirements
 
 It requires Python 3.6 or higher, check your Python version first.
