@@ -1,0 +1,32 @@
+# Deployment file
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app
+  labels:
+    app: app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app
+  template:
+    metadata:
+      labels:
+        app: app
+    spec:
+      terminationGracePeriodSeconds: 30
+      containers:
+        - name: app-app
+          imagePullPolicy: Always
+          image: image
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: app-service
+spec:
+  selector:
+    app: app
+  ports:
+  - port: 5000

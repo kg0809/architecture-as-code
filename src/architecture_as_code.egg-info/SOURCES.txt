@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/architecture_as_code/__init__.py
+src/architecture_as_code.egg-info/PKG-INFO
+src/architecture_as_code.egg-info/SOURCES.txt
+src/architecture_as_code.egg-info/dependency_links.txt
+src/architecture_as_code.egg-info/requires.txt
+src/architecture_as_code.egg-info/top_level.txt
+src/architecture_as_code/templates/k8s_template.yaml
+src/architecture_as_code/templates/k8s_template_ingress.yaml
+src/architecture_as_code/templates/k8s_template_volume_claim.yaml
+src/architecture_as_code/templates/k8s_template_volume_claim_tanzu.yaml

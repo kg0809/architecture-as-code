@@ -1,0 +1,1 @@
+include src/architecture_as_code/templates/*.yaml

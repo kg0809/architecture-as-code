@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: architecture-as-code
+Version: 0.0.11
+Summary: Standardise and speed up application architecture design and deployments
+Home-page: https://github.com/kg0809/architecture-as-code
+Author: kg0809
+Author-email: kg0809developer@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/kg0809/architecture-as-code/issues
+Description: # Architecture as Code
+        
+        ## Standardise and speed up application architecture and deployments
+        
+        Architecture as Code is a Python package that allows you to standardise and speed up your application architecture design and deployments.
+        
+        Improve communication amongst your product team, make your devops folks happier, and shorten time-to-market!
+        
+        ## Requirements
+        
+        It requires Python 3.6 or higher, check your Python version first.
+        
+        It uses [Graphviz](https://www.graphviz.org/) (via [Diagrams](https://diagrams.mingrammer.com/)) to render the diagram, so you first need to install Graphviz before using this package.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
